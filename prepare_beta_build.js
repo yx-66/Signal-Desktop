@@ -6,7 +6,6 @@ const _ = require('lodash');
 const packageJson = require('./package.json');
 
 const { version } = packageJson;
-const beta = /beta/;
 
 // You might be wondering why this file is necessary. It comes down to our desire to allow
 //   side-by-side installation of production and beta builds. Electron-Builder uses
